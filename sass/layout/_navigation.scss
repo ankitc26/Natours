@@ -50,6 +50,10 @@
         list-style: none;
         text-align: center;
         width: 100%;
+        
+        &:before {
+            visibility: hidden;
+        }
     }
 
     &__item {
