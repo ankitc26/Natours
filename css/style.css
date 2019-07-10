@@ -658,6 +658,9 @@ body {
   text-align: center;
   width: 100%; }
 
+.navigation__list:before {
+  display: hidden; }
+
 .navigation__item {
   margin: 1rem; }
 
@@ -683,9 +686,6 @@ body {
   background-position: 100%;
   color: #55c57a;
   transform: translateX(1rem); }
-
-.navigation__link:before {
-  display: hidden; }
 
 .navigation__checkbox:checked ~ .navigation__background {
   transform: scale(80); }
