@@ -1,2 +1,3 @@
 # Natours
-Tour website template
+
+A Tour website template
